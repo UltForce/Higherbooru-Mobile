@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1068739245102-ul4lv371jrih93cmj443g071oa5ohspn.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://pawsite-30215-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">1068739245102</string>
+    <string name="google_api_key" translatable="false">AIzaSyCnI11eOV4DSdliTUBjKQjwBOx5GnxTmhA</string>
+    <string name="google_app_id" translatable="false">1:1068739245102:android:caf051c3ed9344bc6e5bbf</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCnI11eOV4DSdliTUBjKQjwBOx5GnxTmhA</string>
+    <string name="google_storage_bucket" translatable="false">pawsite-30215.appspot.com</string>
+    <string name="project_id" translatable="false">pawsite-30215</string>
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>

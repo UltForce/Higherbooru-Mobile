@@ -1,0 +1,37 @@
+<variant
+    name="debug"
+    package="com.example.pl5_cabe"
+    minSdkVersion="21"
+    targetSdkVersion="35"
+    debuggable="true"
+    mergedManifest="C:\Users\acer\StudioProjects\pl5_Cabe\build\app\intermediates\merged_manifest\debug\processDebugMainManifest\AndroidManifest.xml"
+    manifestMergeReport="C:\Users\acer\StudioProjects\pl5_Cabe\build\app\outputs\logs\manifest-merger-debug-report.txt"
+    proguardFiles="C:\Users\acer\StudioProjects\pl5_Cabe\build\app\intermediates\default_proguard_files\global\proguard-android.txt-8.7.0"
+    partialResultsDir="C:\Users\acer\StudioProjects\pl5_Cabe\build\app\intermediates\lint_partial_results\debug\lintAnalyzeDebug\out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src\main\AndroidManifest.xml;src\debug\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\debug\java;src\main\kotlin;src\debug\kotlin"
+        resDirectories="src\main\res;src\debug\res"
+        assetsDirectories="src\main\assets;src\debug\assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <artifact
+      classOutputs="C:\Users\acer\StudioProjects\pl5_Cabe\build\app\intermediates\javac\debug\compileDebugJavaWithJavac\classes;C:\Users\acer\StudioProjects\pl5_Cabe\build\app\tmp\kotlin-classes\debug;C:\Users\acer\StudioProjects\pl5_Cabe\build\app\intermediates\compile_and_runtime_not_namespaced_r_class_jar\debug\processDebugResources\R.jar"
+      type="MAIN"
+      applicationId="com.example.pl5_cabe"
+      generatedSourceFolders="C:\Users\acer\StudioProjects\pl5_Cabe\build\app\generated\ap_generated_sources\debug\out"
+      generatedResourceFolders="C:\Users\acer\StudioProjects\pl5_Cabe\build\app\generated\res\processDebugGoogleServices;C:\Users\acer\StudioProjects\pl5_Cabe\build\app\generated\res\resValues\debug"
+      desugaredMethodsFiles="C:\Users\acer\.gradle\caches\8.10.2\transforms\94aa6ac09e6c80a3181d1ac4c268954c\transformed\D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

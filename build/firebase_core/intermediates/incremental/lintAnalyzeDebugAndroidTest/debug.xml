@@ -1,0 +1,30 @@
+<variant
+    name="debug"
+    package="io.flutter.plugins.firebase.core"
+    minSdkVersion="21"
+    targetSdkVersion="21"
+    debuggable="true"
+    mergedManifest="C:\Users\acer\StudioProjects\pl5_Cabe\build\firebase_core\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml"
+    partialResultsDir="C:\Users\acer\StudioProjects\pl5_Cabe\build\firebase_core\intermediates\android_test_lint_partial_results\debug\lintAnalyzeDebugAndroidTest\out"
+    desugaredMethodsFiles="C:\Users\acer\.gradle\caches\8.10.2\transforms\94aa6ac09e6c80a3181d1ac4c268954c\transformed\D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+  </sourceProviders>
+  <testSourceProviders>
+    <sourceProvider
+        manifests="src\androidTest\AndroidManifest.xml"
+        javaDirectories="src\androidTest\java;src\androidTestDebug\java;src\androidTest\kotlin;src\androidTestDebug\kotlin"
+        resDirectories="src\androidTest\res;src\androidTestDebug\res"
+        assetsDirectories="src\androidTest\assets;src\androidTestDebug\assets"
+        androidTest="true"/>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      type="INSTRUMENTATION_TEST"
+      applicationId="io.flutter.plugins.firebase.core.test"
+      generatedResourceFolders="C:\Users\acer\StudioProjects\pl5_Cabe\build\firebase_core\generated\res\resValues\androidTest\debug"
+      desugaredMethodsFiles="C:\Users\acer\.gradle\caches\8.10.2\transforms\94aa6ac09e6c80a3181d1ac4c268954c\transformed\D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

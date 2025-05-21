@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1068739245102",
+    "firebase_url": "https://pawsite-30215-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pawsite-30215",
+    "storage_bucket": "pawsite-30215.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068739245102:android:caf051c3ed9344bc6e5bbf",
+        "android_client_info": {
+          "package_name": "com.example.pl5_cabe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068739245102-ul4lv371jrih93cmj443g071oa5ohspn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnI11eOV4DSdliTUBjKQjwBOx5GnxTmhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068739245102-ul4lv371jrih93cmj443g071oa5ohspn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
