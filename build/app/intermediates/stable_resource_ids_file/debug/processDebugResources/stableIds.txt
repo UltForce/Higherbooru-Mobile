@@ -1,4 +1,5 @@
-com.example.pl5_cabe:xml/image_share_filepaths = 0x7f0f0000
+com.example.pl5_cabe:xml/image_share_filepaths = 0x7f0f0001
+com.example.pl5_cabe:xml/flutter_image_picker_file_paths = 0x7f0f0000
 com.example.pl5_cabe:styleable/SplitPairRule = 0x7f0e000d
 com.example.pl5_cabe:styleable/SignInButton = 0x7f0e000b
 com.example.pl5_cabe:styleable/LoadingImageView = 0x7f0e000a
