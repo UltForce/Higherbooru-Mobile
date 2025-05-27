@@ -5,6 +5,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'dart:io';
 import 'signup_form.dart';
+import 'follow_list_page.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -185,6 +186,52 @@ class _ProfilePageState extends State<ProfilePage> {
               decoration: const InputDecoration(labelText: 'Bio'),
             ),
             const SizedBox(height: 10),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => FollowListPage(
+                          userId: user.uid,
+                          isFollowers: true,
+                        ),
+                      ),
+                    );
+                  },
+                  child: Column(
+                    children: [
+                      Text('$followersCount', style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                      const Text('Followers'),
+                    ],
+                  ),
+                ),
+                const SizedBox(width: 40),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => FollowListPage(
+                          userId: user.uid,
+                          isFollowers: false,
+                        ),
+                      ),
+                    );
+                  },
+                  child: Column(
+                    children: [
+                      Text('$followingCount', style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                      const Text('Following'),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 16),
+
             ElevatedButton(
               onPressed: updateProfile,
               child: const Text("Update Profile"),

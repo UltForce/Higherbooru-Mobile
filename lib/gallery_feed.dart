@@ -8,6 +8,8 @@ import 'login_form.dart';
 import 'my_posts_page.dart';
 import 'post_details_page.dart';
 import 'artist_profile_page.dart';
+import 'liked_posts_page.dart';
+import 'following_feed.dart';
 
 class GalleryFeed extends StatefulWidget {
   const GalleryFeed({super.key});
@@ -159,9 +161,19 @@ class _GalleryFeedState extends State<GalleryFeed> {
                         onTap: () => Navigator.pop(context),
                       ),
                       ListTile(
+                        leading: const Icon(Icons.people),
+                        title: const Text('Following Feed'),
+                        onTap: () => _navigateTo(const FollowingFeedPage()),
+                      ),
+                      ListTile(
                         leading: const Icon(Icons.photo_library),
                         title: const Text('My Posts'),
                         onTap: () => _navigateTo(const MyPostsPage()),
+                      ),
+                      ListTile(
+                        leading: const Icon(Icons.favorite),
+                        title: const Text('Liked Posts'),
+                        onTap: () => _navigateTo(const LikedPostsPage()),
                       ),
                       ListTile(
                         leading: const Icon(Icons.logout),
